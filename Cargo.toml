@@ -1,0 +1,10 @@
+[package]
+name = "ccat"
+version = "0.1.0"
+authors = ["Adversing"]
+edition = "2021"
+
+[dependencies]
+syntect = "5.1"
+clap = { version = "4.0", features = ["derive"] }
+anyhow = "1.0"
